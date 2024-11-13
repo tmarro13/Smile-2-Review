@@ -64,7 +64,6 @@ nav ul li a:hover {
     color: #ffde7d;
 }
 
-/* Movie Details Section */
 .movie-details {
     background-color: #ffffff;
     padding: 25px;
@@ -74,12 +73,16 @@ nav ul li a:hover {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for h2 within Movie Details Section */
 .movie-details h2 {
     font-size: 3rem;
-    font-family:fantasy;
-    color: #007991;
-    margin-bottom: 15px;
+    color: #fff;
+    background-color: #007991; /* Different background color */
+    padding: 15px;
+    border-radius: 8px; /* Smooth, rounded corners */
     text-align: center;
+    margin: -30px -25px 15px -25px; /* Aligns the h2 to the edges of .movie-details */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
 }
 
 .movie-details p {
