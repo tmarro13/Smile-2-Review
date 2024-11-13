@@ -7,38 +7,38 @@
 
 /* Body Styling */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.8;
-    background: linear-gradient(to bottom right, #ece9e6, #ffffff);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
     color: #333;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Header Styling */
 header {
-    background-color: #222;
+    background: linear-gradient(to right, #007991, #78ffd6);
     color: #fff;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     font-size: 2.5rem;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: bold;
     text-transform: uppercase;
-    border-radius: 8px 8px 0 0;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    letter-spacing: 1px;
 }
 
 /* Navigation Bar */
 nav {
-    background: #444;
+    background-color: #007991;
     overflow: hidden;
-    padding: 10px 0;
-    margin-bottom: 20px;
-    border-radius: 4px;
+    padding: 15px 0;
+    margin: 15px 0;
+    border-radius: 8px;
 }
 
 nav ul {
@@ -48,43 +48,42 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bold;
+    font-size: 1.1rem;
     transition: color 0.3s;
-    letter-spacing: 0.5px;
 }
 
 nav ul li a:hover {
-    color: #ffd700;
+    color: #ffde7d;
 }
 
 /* Movie Details Section */
 .movie-details {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 25px;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007991;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .movie-details h2 {
     font-size: 3rem;
-    color: #222;
-    margin-bottom: 10px;
+    color: #007991;
+    margin-bottom: 15px;
     text-align: center;
 }
 
 .movie-details p {
     font-size: 1rem;
-    color: #555;
-    margin-bottom: 5px;
-    line-height: 1.5;
+    color: #444;
+    margin-bottom: 8px;
 }
 
 .movie-details .movie-poster {
@@ -95,52 +94,52 @@ nav ul li a:hover {
 .movie-details .movie-poster img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Review Content Section */
 .review-content {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 25px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #78ffd6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .review-content p {
     margin-bottom: 1.5em;
     font-size: 1.1rem;
-    line-height: 1.6;
     color: #333;
+    line-height: 1.6;
 }
 
 .review-content h3 {
     font-size: 1.8rem;
     margin-bottom: 15px;
-    color: #444;
-    border-bottom: 2px solid #ddd;
+    color: #007991;
+    border-bottom: 2px solid #78ffd6;
     padding-bottom: 5px;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #222;
-    color: #fff;
+    background-color: #007991;
+    color: #ffffff;
     text-align: center;
-    padding: 15px 0;
-    margin-top: 20px;
+    padding: 20px 0;
     font-size: 0.9rem;
-    border-radius: 0 0 8px 8px;
-    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Styling for Stars */
 .star {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #ffd700; /* Gold color for filled stars */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 0 5px;
 }
 
 .star.faded {
@@ -148,9 +147,9 @@ footer {
 }
 
 .rating-label {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    color: #444;
+    color: #007991;
     display: inline-block;
     margin-right: 10px;
     vertical-align: middle;
